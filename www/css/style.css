@@ -1,1 +1,27 @@
 /* Empty. Add your own CSS if you like */
+
+.profile {
+  max-height: 20em;
+  overflow: hidden;
+  border-bottom: solid 5px #387ef5;
+  text-align: center;
+  position: static;
+}
+
+.profile img {
+  width: 100%;
+  min-height: 20em;
+}
+.profile .ion-thumbsup {
+  position: absolute;
+  right: 0.2em;
+  top: 12.4em;
+  border-radius: 50%;
+  min-width: 2em;
+  min-height: 2em;
+}
+
+.info i { font-size: 1.2em !important }
+.info span { font-size: 1.5em }
+
+.home-view { background: url('http://www.wallpapervortex.com/mobile_phone_wallpapers/mobile_phone_wallpaper_18550_game_of_thrones.jpg') no-repeat; background-size: cover;}

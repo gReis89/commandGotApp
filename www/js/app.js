@@ -1,3 +1,9 @@
+// CONSTS
+var PROD = 'https://commandgot.herokuapp.com/',
+DEV = 'http://localhost:8080/',
+ENV = PROD;
+
+
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
@@ -50,21 +56,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
+  .state('tab.chars', {
+      url: '/chars',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+        'tab-chars': {
+          templateUrl: 'templates/tab-chars.html',
+          controller: 'CharsCtrl'
         }
       }
     })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
+    .state('tab.char-detail', {
+      url: '/chars/:charId',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+        'tab-chars': {
+          templateUrl: 'templates/char-detail.html',
+          controller: 'CharDetailCtrl'
         }
       }
     })

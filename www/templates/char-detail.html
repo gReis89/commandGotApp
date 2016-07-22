@@ -1,0 +1,22 @@
+<ion-view class="person-view">
+  <ion-nav-title>
+    {{char.name}}
+  </ion-nav-title>
+  <ion-content>
+    <div class="profile">
+      <img ng-src="{{char.path}}" />
+      <button class="button button-large button-positive icon ion-thumbsup" ng-click="like(char._id)"></button>
+    </div>
+    <p class="padding">
+      {{char.about}}
+    </p>
+    <div class="list card info">
+      <span class="item item-icon-left">
+        <i class="icon ion-thumbsup"></i> {{char.likes}}
+      </span>
+      <span class="item item-icon-left">
+        <i class="icon ion-eye"></i> {{char.visits}}
+      </span>
+    </div>
+  </ion-content>
+</ion-view>

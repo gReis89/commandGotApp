@@ -1,0 +1,12 @@
+<ion-view view-title="Chars">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="char in chars" type="item-text-wrap" href="#/tab/chars/{{char._id}}">
+        <img ng-src="{{char.path}}">
+        <h2>{{char.name}}</h2>
+        <p>{{char.about}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
