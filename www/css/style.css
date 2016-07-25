@@ -24,4 +24,4 @@
 .info i { font-size: 1.2em !important }
 .info span { font-size: 1.5em }
 
-.home-view { background: url('http://www.wallpapervortex.com/mobile_phone_wallpapers/mobile_phone_wallpaper_18550_game_of_thrones.jpg') no-repeat; background-size: cover;}
+.home-view { background: url('../img/bg-got.jpg') no-repeat; background-size: cover;}
